@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from "react";
 import styles from '../../styles/PlayerEpisodeList.module.css'
-import { getEpisodes } from "@/actions/episode";
+import { getEpisodes } from "@/lib/getData";
 import { ProvidersMap } from "@/utils/EpisodeFunctions";
 import { useRouter } from 'next-nprogress-bar';
 import EpImgContent from "../Episodelists/EpImgContent";
