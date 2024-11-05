@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import { getAnimeSources } from '@/actions/source';
+import { getSources } from '@/lib/getData';
 import PlayerEpisodeList from './PlayerEpisodeList';
 import Player from './VidstackPlayer/player';
 import { Spinner } from '@vidstack/react';
